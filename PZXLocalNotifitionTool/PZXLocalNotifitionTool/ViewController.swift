@@ -24,6 +24,12 @@ class ViewController: UIViewController {
 
 
     @IBAction func buttonPressed(_ sender: UIButton) {
+        
+        
+        
+        
+//        PZXUserNotificationCenterManager().SendNotification(title: "测试", subtitle: "测试+1", body: "222", categoryIdentifier: "category标识，操作策略", requestIdentifier: "", date: Date())
+        
 //        UserNotifications
         let content = UNMutableNotificationContent()
         
@@ -32,6 +38,15 @@ class ViewController: UIViewController {
         content.body = "推送内容body"// 推送内容body
         content.categoryIdentifier = "category标识，操作策略"  //category标识，操作策略
         
+        
+        if let imageURL = Bundle.main.url(forResource: "notifyImage", withExtension: "jpg") {
+            do {
+                let attachment = try UNNotificationAttachment(identifier: "imageAttachment", url: imageURL, options: nil)
+                content.attachments = [attachment]
+            } catch {
+                print("The attachment was not loaded.")
+            }
+        }
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         let requestIdentifier = "UNUserNotificationCenter"

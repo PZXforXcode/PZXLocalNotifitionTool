@@ -14,6 +14,7 @@
 		7062B0AB299F1799002AAEBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7062B0AA299F1799002AAEBA /* Assets.xcassets */; };
 		7062B0AE299F1799002AAEBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7062B0AC299F1799002AAEBA /* LaunchScreen.storyboard */; };
 		7062B0B6299F2CC1002AAEBA /* PZXUserNotificationCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7062B0B5299F2CC1002AAEBA /* PZXUserNotificationCenterManager.swift */; };
+		893FDEC12C352C4A008B9137 /* notifyImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 893FDEC02C352C4A008B9137 /* notifyImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7062B0AD299F1799002AAEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7062B0AF299F1799002AAEBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7062B0B5299F2CC1002AAEBA /* PZXUserNotificationCenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PZXUserNotificationCenterManager.swift; sourceTree = "<group>"; };
+		893FDEC02C352C4A008B9137 /* notifyImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notifyImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				7062B0A1299F1798002AAEBA /* AppDelegate.swift */,
 				7062B0A3299F1798002AAEBA /* SceneDelegate.swift */,
 				7062B0A5299F1798002AAEBA /* ViewController.swift */,
+				893FDEC02C352C4A008B9137 /* notifyImage.jpg */,
 				7062B0B5299F2CC1002AAEBA /* PZXUserNotificationCenterManager.swift */,
 				7062B0A7299F1798002AAEBA /* Main.storyboard */,
 				7062B0AA299F1799002AAEBA /* Assets.xcassets */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7062B0AE299F1799002AAEBA /* LaunchScreen.storyboard in Resources */,
+				893FDEC12C352C4A008B9137 /* notifyImage.jpg in Resources */,
 				7062B0AB299F1799002AAEBA /* Assets.xcassets in Resources */,
 				7062B0A9299F1798002AAEBA /* Main.storyboard in Resources */,
 			);
@@ -291,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6AE83KM8ZG;
+				DEVELOPMENT_TEAM = KCNSS22SRZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PZXLocalNotifitionTool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6AE83KM8ZG;
+				DEVELOPMENT_TEAM = KCNSS22SRZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PZXLocalNotifitionTool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
